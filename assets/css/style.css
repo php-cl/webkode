@@ -1,0 +1,213 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+	background-color: #bdc3c7;
+ }
+
+.webkoder-slider{
+	 
+    background-color: #232323;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../img/fondo.jpg");
+    background-repeat: repeat-x, repeat;
+    background-size: 100px 15px, 140px 140px;
+
+
+	min-height: 80px;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-size: 1.5rem;
+	border-bottom: 3px solid #161616;
+}
+
+
+.webkoder-slider h3{
+  font-weight: 300;
+  font-size: 5rem;
+  color: #ec7600;
+  font-family: "Kristen ITC", Arial;
+}
+
+.webkoder-slider p{
+  font-family: "Bradley Hand ITC", Arial;
+  font-size: 2rem;
+
+}
+
+
+
+.webkoder-main{
+	background-color: #fff;
+	min-height: 700px;
+	padding: 20px;
+}
+
+
+
+
+.webkoder-footer{
+    background-color: #232323;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../img/fondo.jpg");
+    background-repeat: repeat-x, repeat;
+    background-size: 100px 15px, 140px 140px;
+
+
+	min-height: 80px;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	border-top: 3px solid #161616;
+}
+
+.webkoder-footer a{
+   color: #fff;
+}
+
+
+/*  ------------------   Redes Sociales      --------------------- */
+
+#social-sidebar {
+    left: 0;
+    margin-top: -75px;
+    position: fixed;
+    top: 50%;
+    z-index: 1000;
+}
+
+.entypo-twitter {
+    background-color: #6cdfea;
+}
+
+
+
+.entypo-facebook{
+    background-color: #234999;
+}
+
+.entypo-youtube{
+    background-color: #ff0000;
+}
+
+#social-sidebar ul li a {
+    color: #ffffff;
+    display: block;
+    font-size: 28px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+#social-sidebar ul li a:hover{
+   width: 60px;
+   -webkit-transition: all 0.5s ease;/* Safari 3.2+, Chrome */
+   -moz-transition: all 0.5s ease;/* Firefox 4-15 */
+   -o-transition: all 0.5s ease;/* Opera 10.5-12.00 */
+   transition: all 0.5s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+  /*  ------------------   Redes Sociales      --------------------- */
+
+
+
+  /*  ------------------   Diseño Responsivo   --------------------- */
+
+  @media screen and (max-width: 400px){
+    #social-sidebar,.orange_mar,.cuadro-usuarios{
+      display: none;
+    }
+  
+    .botonsup{
+      margin-bottom: 10px;
+    }
+
+    .rq{
+      margin: 2px;
+    }
+
+   
+    
+}
+
+
+
+.element.style {
+    display: block;
+}
+
+#toTop {
+    background: url("../img/toTop.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 10px;
+    color: #333333;
+    cursor: pointer;
+    display: none;
+    font-family: verdana;
+    font-size: 11px;
+    height: 40px;
+    padding: 5px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    width: 40px;
+
+
+}
+
+
+
+.my-nav{
+  background-color: #232323;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../img/fondo.jpg");
+  background-repeat: repeat-x, repeat;
+  background-size: 100px 15px, 140px 140px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+  -moz-border-radius: 3px;/*Firefox*/
+  -webkit-border-radius: 3px;/*Safari, Chrome*/
+   border-radius: 3px;
+}
+
+
+.cuadro-usuarios{
+  position: fixed;
+  z-index: 1000;  
+  background-color: #ec7600;
+  top: 20px;
+  left: 5px;
+   padding: 20px;
+   
+   border: 0px solid #000000;
+   -moz-border-radius: 3px;/*Firefox*/
+   -webkit-border-radius: 3px;/*Safari, Chrome*/
+   border-radius: 3px;
+
+}
+
+.cuadro-usuarios p{
+  color: #fff;
+}
+
+.rq{
+  background-color: #a7d6ff;
+}
+
+.separador{
+    border-top-color: #333333;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: 0 -1px 0 #000000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.paginacion{
+  text-align: center;
+}
